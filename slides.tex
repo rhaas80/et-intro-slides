@@ -68,36 +68,152 @@
 \setbeamertemplate{navigation symbols}{}
 
 \title[The Einstein Toolkit]{Introduction to the Einstein Toolkit}
-\author[{Frank Löffler}]{Frank Löffler}
+\author[{Brandt and Others}]{Steven R. Brandt, Frank Löffler, Roland Haas, Peter Diener, others}
 \institute{Center for Computation and Technology\\Louisiana State University, Baton Rouge, LA}
 %\titlegraphic{\includegraphics[height=1.5cm]{einstein_flip}\\}
-\date[2013-07-26]{July 26th 2013}
+\date[2020-08-03]{Aug 3, 2020}
 
 \begin{document}
 
 \frame{\titlepage}
 
+\frame{\frametitle{In the beginning...}
+1.3 Billion Years Ago, two black holes, each with about 30 solar masses, collided. They released three solar masses worth of mass energy as gravitational waves. Earth is in the Proterozoic Eon. Life consists of eukaryotes, including multicellular life forms.
+}
+
+\frame{\frametitle{In the beginning...}
+541 Million Years Ago, Phanerozoic Eon begins, complex life, including vertebrates, appears.
+}
+
+\frame{\frametitle{In the beginning...}
+1 Million Years Ago, Neanderthals appear.
+}
+
+\frame{\frametitle{In the beginning...}
+200 Thousand Years Ago, ``Anatomically Modern Humans" appear.
+}
+
+\frame{\frametitle{In the beginning...}
+In 1687, Newton publishes ``Philosophiæ Naturalis Principia Mathematica"
+}
+
+\frame{\frametitle{In the beginning...}
+In 1905, Einstein publishes his paper on special relativity.
+}
+
+\frame{\frametitle{In the beginning...}
+In 1915, Einstein publishes his papers on general relativity.
+}
+
+\frame{\frametitle{In the beginning...}
+In 1916, Schwarzchild publishes the Schwarzchild black hole solution
+}
+
+\frame{\frametitle{In the beginning...}
+In 1936, Einstein correctly describes gravitational waves
+}
+
+\frame{\frametitle{In the beginning...}
+In 1956, Felix Pirani eliminates coordinate confusion and describes gravitational waves using curvature
+}
+
+\frame{\frametitle{In the beginning...}
+In 1963, Kerr publishes the Kerr black hole solution
+}
+
+\frame{\frametitle{In the beginning...}
+In 1994, The head-on collision of two black holes was simulated, as well as distorted single black holes
+}
+
+\frame{\frametitle{In the beginning...}
+In 1995, Distorted Kerr solutions were simulated by me. :)
+}
+
+\frame{\frametitle{In the beginning...}
+In 1997, Cactus was created by Paul Walker and Joan Masso.
+It remains as one of the best, completely open source, collaborative
+frameworks for studying numerical relativity.
+}
+
+%\frame{\frametitle{In the beginning...}
+%In 1999: Cactus 4.0: "Cactus Einstein" thorns
+%In 1999-2002: EU Network develops the Whisky Code
+%}
+
+\frame{\frametitle{In the beginning...}
+In 2005, Franz Praetorius published his results on evolving binary black hole spacetimes.
+}
+
+%\frame{\frametitle{In the beginning...}
+%In 2007-2009: LSU/RIT/PennState/Caltech/GeorgiaTech/AEI collaborations
+%}
+
+\frame{\frametitle{In the beginning...}
+In 2012: The Einstein Toolkit is created.
+}
+
+\frame{\frametitle{In the beginning...}
+In 2015, LIGO detected gravitational waves from two black holes that collided 1.3 billion years ago. The event was called GW150914.
+}
+
+\frame{\frametitle{In the beginning...}
+Oh man, look at those cavemen go...
+
+  --- David Bowie
+}
+
+\frame{\frametitle{In the beginning...}
+\abspic{cavemen}{-0.2}{.105}{0.63}
+}
+
+%In the late nineteen nineties, we knew that LIGO was going to happen--or, at least, most of us believed it would. But we weren't sure whether we could interpret the data LIGO would see.
+%}
+
 \frame{\frametitle{Einstein Toolkit}
  \abspic{einstein}{-0.2}{0.6}{0.23}
- \abspic{people/frank}    {0.65}{0.2  }{0.08}
- \abspic{people/sbrandt}  {0.65}{0.25 }{0.08}
- \abspic{people/tanja}    {0.65}{0.302}{0.08}
- \abspic{people/diener}   {0.65}{0.357}{0.08}
- \abspic{people/roland}   {0.65}{0.405}{0.08}
- \abspic{people/ian}      {0.65}{0.455}{0.08}
- \abspic{people/bruno}    {0.65}{0.505}{0.08}
- \abspic{people/christian}{0.65}{0.555}{0.08}
- \abspic{people/erik}     {0.65}{0.605}{0.08}
+% \abspic{people/frank}    {0.55}{0.2  }{0.13}
+ \abspic{people/sbrandt}  {0.55}{0.12 }{0.13}
+ %\abspic{people/tanja}    {0.55}{0.302}{0.13}
+ \abspic{people/diener}   {0.55}{0.205}{0.13}
+ \abspic{people/roland}   {0.55}{0.275}{0.13}
+ \abspic{people/helvi}   {0.55}{0.35}{0.13}
+ \abspic{people/zach}   {0.55}{0.43}{0.13}
+ %\abspic{people/ian}      {0.55}{0.455}{0.13}
+ \abspic{people/bruno}    {0.55}{0.505}{0.13}
+ %\abspic{people/christian}{0.55}{0.555}{0.13}
+ \abspic{people/erik}     {0.55}{0.60}{0.13}
+ \scriptsize
  \begin{itemize}
    \item Collection of scientific software components and tools to simulate and analyze general relativistic astrophysical systems
   \item Freely available as open source at \href{http://einsteintoolkit.org}{http://einsteintoolkit.org}
-  \item Supported by NSF 1550551/1550461/1550436/1550514, NSF 1212401/1212426/1212433/1212460, NSF 0903973/0903782/0904015 (CIGR), 0701566/0855892 (XiRel), 0721915 (Alpaca), 0905046/0941653(PetaCactus/PRAC)
+  \item Supported by {\tiny NSF 1550551/1550461/1550436/1550514, NSF 1212401/1212426/1212433/1212460, NSF 0903973/0903782/0904015 (CIGR), 0701566/0855892 (XiRel), 0721915 (Alpaca), 0905046/0941653(PetaCactus/PRAC)}
   \item State-of-the-art set of tools for numerical relativity, open source
   \item Currently 259 members from 172 sites and 39 countries
   \item $>200$ publications, $>30$ theses building on these components (as of 2013)
   \item Regular, tested releases
   \item User support through various channels
  \end{itemize}
+}
+
+\frame{\frametitle{Einstein Toolkit}
+ \abspic{gw-waves}{-.1}{.45}{.20}
+ \abspic{rhaas-pic}{.1}{.5}{.10}
+ \abspic{colors}{.2}{.3}{.30}
+ \abspic{nstar}{.2}{.5}{.20}
+ \abspic{ebent}{.2}{.75}{.20}
+ \abspic{twostars}{.4}{.3}{.20}
+ \abspic{zachstar}{.4}{.7}{.20}
+ \abspic{ruizstar}{-.1}{.7}{.20}
+Science
+\begin{itemize}
+\item Binary Black Hole Mergers
+\item Neutron Star Mergers
+\item Supernovae
+\item Accretion Disks
+\item Boson Stars
+\item Hairy Black Holes
+\item Cosmic Censorship
+\end{itemize}
 }
 
 \question{\vspace{1cm}Community Effort!\\\vspace{1cm}\includegraphics[width=4cm]{800px-Ants_eating_fruit}\vspace{1cm}}
@@ -110,15 +226,20 @@
           \vspace{1cm}\includegraphics[width=4cm]{gorilla_tablet}}
 
 \picw{Chinese-abacus}{}{1}{0}
-\pic{book_and_screen}{}
-\pic{8GB_vs_8Byte}{}
+%\pic{book_and_screen}{}
+%\pic{8GB_vs_8Byte}{}
 
 \frame{\frametitle{More and more diverse hardware}
- \abspic{05_intel_ivy_bridge}         {-0.20}{0.0}{0.4}
- \abspic{07_Nvidia_tesla_k10}         {-0.05}{0.4}{0.2}
- \abspic{10_KnightsCornerChip_in_hand}{ 0.10}{0.7}{0.25}
+ %\abspic{05_intel_ivy_bridge}         {-0.20}{0.0}{0.3}
+ %\abspic{07_Nvidia_tesla_k10}         {-0.05}{0.4}{0.3}
+ %\abspic{10_KnightsCornerChip_in_hand}{ 0.10}{0.7}{0.25}
+ \abspic{arm}{-0.20}{0.0}{0.3}
+ \abspic{icore9}{-0.25}{0.4}{.3}
+ \abspic{radeon}{.15}{.1}{.3}
+ \abspic{nvidia}{.10}{.4}{.3}
 }
-\picw{kraken}{}{1}{0}
+\picw{fugaku}{}{1}{0}
+\picw{borg}{}{1}{0}
 
 \frame{\frametitle{Computational Challenges}
  \abspic{640px-Gorilla_Scratching_Head}{0.2}{0.5}{0.35}
@@ -128,13 +249,133 @@
  \item Make use of latest hardware
   \begin{itemize}
   \item Cache
-  \item Vector
-  \item SMP parallelism
-  \item GPU
-  \item Scale to many nodes
+  \pause
+  \item Vector %(Kranc, NRPy+)
+  \pause
+  \item Scale to many cores %(openmp)
+  \pause
+  \item Scale to many nodes %(MPI, Carpet)
+  \pause
+  \item Algorithms %(Adaptive Mesh Refinement, Carpet)
+  %\item GPU %(AMReX?)
+  %\item FPGA?
+  %\item Q-Bits?
+  %\item Neuromorphic chips?
   \end{itemize}
  \end{itemize}
 }
+
+
+\frame[containsverbatim]{ \frametitle{Computational Challenges}
+  \begin{itemize}
+    \item Efficient use of all hardware is complex and tedious.
+    \item Requires experts from different disciplines
+    \item Requires good data layouts and APIs 
+    \item To ensure correctness, need good modularization on
+          a number of levels
+          and understanding of advanced programming concepts.
+    \item Design and implementation needs to be carefully thought out
+	  in order to ensure extensibility and portability.
+  \end{itemize}
+}
+
+%\frame[containsverbatim]{ \frametitle{Domain Decomposition}
+%  \begin{minipage}[b]{6.5cm}
+%    \begin{itemize}
+%      \item In a domain decomposition scheme, the discrete elements (points,
+%            cells, particles, \ldots) are distributed among the processors.
+%      \item Each process handles only those that it \emph{owns} (without
+%            requiring communication).
+%      \item Accessing elements from neighboring processes requires
+%            communication (e.g.\ at domain boundaries).
+%    \end{itemize}
+%  \end{minipage}
+%  \raisebox{2.0em}{
+%    \begin{minipage}[t]{4.5cm}
+%      \includegraphics[width=4.3cm]{pics/wire-frame}
+%    \end{minipage}
+%  }
+%}
+
+\frame { \frametitle{Domain Decomposition}
+ Without Ghostzones:\\
+ \begin{centering}\includegraphics[width=9cm]{pics/1dnoghost}\\\end{centering}
+ With Ghostzones:\\
+ \begin{centering}\includegraphics[width=9cm]{pics/withghost}\\\end{centering}
+}
+
+\frame { \frametitle{Domain decomposition}
+ \begin{centering}\includegraphics[width=11cm]{pics/domain_decomposition}\\\end{centering}
+}
+\frame { \frametitle{Multiblock and refinement}
+ \begin{centering}\includegraphics[width=11cm]{pics/multiblock}\\\end{centering}
+}
+
+\frame{\frametitle{Computational Challenges}
+ \abspic{640px-Gorilla_Scratching_Head}{-0.1}{0.5}{0.35}
+ \begin{itemize}
+ \item Simulate cutting edge science
+ \item Use latest numerical methods
+ \item Make use of latest hardware
+  \begin{itemize}
+  %\item Cache
+  \item Vector (Kranc, NRPy+)
+  \pause
+  \item Scale to many cores (openmp)
+  \pause
+  \item Scale to many nodes (MPI, Carpet, CarpetX)
+  \pause
+  \item Algorithms / AMR (Adaptive Mesh Refinement, Carpet, CarpetX, MOL)
+  \pause
+  \item GPU (CarpetX)
+  \pause
+  \item FPGA?
+  \pause
+  \item ASIC?
+  \pause
+  \item Neuromorphic processor?
+  \pause
+  \item Q-bits?
+  \end{itemize}
+ \end{itemize}
+}
+
+\frame{\frametitle{Computational Challenges}
+ \abspic{640px-Gorilla_Scratching_Head}{-0.1}{0.5}{0.35}
+More Mundane Challenges
+\begin{itemize}
+\pause
+\item Efficient I/O
+\pause
+\item HDF5
+\pause
+\item Checkpoint/Restart
+\pause
+\item Parameter Parsing
+\pause
+\item Visualization
+\pause
+\item Steering
+\end{itemize}
+}
+
+%\frame[containsverbatim]{ \frametitle{The Wave Equation}
+%  Approximating the pressure $P(x,t)$ with a grid function $P_i^{(n)}$.
+%  \begin{minipage}[b]{3.05cm}
+%    \includegraphics[width=3cm]{pics/discretisation}
+%  \end{minipage}
+%  \raisebox{8em}{
+%  \begin{minipage}[t]{8.5cm}
+%    \begin{eqnarray}
+%      \frac{\partial^2 P}{\partial t^2} & = & 
+%       v^2\frac{\partial^2 P}{\partial x^2} \nonumber \\
+%      & \Downarrow & \nonumber \\
+%      \frac{P_i^{(n+1)}-2 P_i^{(n)}+P_i^{(n-1)}}{\Delta t^2} & = &
+%      v^2\frac{P_{i+1}^{(n)}-2 P_i^{(n)}+P_{i-1}^{(n)}}{\Delta x^2} \nonumber
+%    \end{eqnarray}
+%  \end{minipage}}
+%  The error from this time and space discretisation is $O(h^2)$.
+%}
 
 \question{Collaborat{\redidot}ve Challenges\\
           \vspace{1cm}\includegraphics[width=4cm]{gorilla_fight}}
@@ -159,7 +400,7 @@
   \abspic{wind_park}     {-0.30}{0.73}{0.2}
   \abspic{space_shuttle} { 0.20}{0.00}{0.2}
   \abspic{crab}          { 0.20}{0.75}{0.2}
-  \abspic{kraken}        {-0.07}{0.40}{0.15}
+  \abspic{bluewaters}        {-0.07}{0.40}{0.15}
   \abspic{tianhe1}       { 0.31}{0.40}{0.15}
 }
 
@@ -169,7 +410,7 @@
   \abspic{wind_park}     {-0.30}{0.73}{0.2}
   \abspic{space_shuttle} { 0.20}{0.00}{0.2}
   \abspic{crab}          { 0.20}{0.75}{0.2}
-  \abspic{kraken}        {-0.07}{0.40}{0.15}
+  \abspic{bluewaters}        {-0.07}{0.40}{0.15}
   \abspic{tianhe1}       { 0.31}{0.40}{0.15}
 }
 
@@ -284,13 +525,59 @@ How can we work together?
     \item Researchers in the USA
     \begin{itemize}
         \item Louisiana
+        \item Illinois
+        \item Virginia
         \item Pennsylvania
         \item Georgia
         \item California
     \end{itemize}
-    \item Researchers in Germany
-    \item Researchers in Canada
+    \item Researchers in Other countries
+    \begin{itemize}
+        \item Italy
+        \item Spain
+        \item Portugal
+        \item Canada
+        \item Germany
+    \end{itemize}
 \end{itemize}
+}
+
+\frame{\frametitle{Einstein Toolkit}
+ \abspic{einstein}{-0.2}{0.6}{0.23}
+ \abspic{cactuslogo}{0.22}{0.20}{.11}
+ \abspic{simfac-trim}{0.25}{0.32}{.15}
+ \abspic{kranc-trim}{0.39}{0.20}{.11}
+ \abspic{Nerpy}{0.5}{0.30}{.15}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Goals:
+\begin{itemize}
+\item Community Driven
+\item Core computational tool for GR
+\item General purpose tool!
+\end{itemize}
+Components:
+\begin{itemize}
+\item Cactus
+\item Simulation Factory
+\item Kranc
+\item NRPy+
+\item Science Modules
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+Guiding Principles
+\begin{itemize}
+\item Open
+\item Community Driven
+\item Good interfaces
+\item Separation of physics
+      from computational
+      infrastructure
+\item Code reviews
+\end{itemize}
+\end{column}
+\end{columns}
 }
 
 \frame{\frametitle{Einstein Toolkit as growing project}
@@ -399,11 +686,11 @@ How can we work together?
  \begin{itemize}
   \item Open and free source
   \item No \textbf{requirement} to cite anything
-  \item However: \textbf{requested} to cite a few publications
-  \item Which publications:
+  \item However: \textbf{requested} to cite 
   \begin{itemize}
-   \item One, maybe two for the Toolkit itself
-   \item Some components list a few as well
+   \item The DOI doi:10.5281/zenodo.3866075
+   \item Maybe the ET or Cactus papers
+   \item Some papers for the components list a few as well
    \item List published on website and manage through publication database
   \end{itemize}
  \end{itemize}
@@ -412,20 +699,20 @@ How can we work together?
 \section{Vision}
 \frame{\frametitle{Vision}
  \abspic{arrow}{0}{0.65}{0.2}
- Near Future
+ Cutting Edge / Future
  \begin{itemize}
-  \item Inclusion of ``more physics'', e.g. general \\MHD, tabulated equations of state
-  \item Improve scaling of existing mesh methods
+  %\item Inclusion of ``more physics'', e.g. general \\MHD, tabulated equations of state
+  %\item Improve scaling of existing mesh methods
+  \item New Driver Thorn: AMReX
+  \item New Declarative Synchronization: Presync
+  \item New Spherical Coordinates Thorn (RIT)
+  \item New Python Code Generator: NRPy+
  \end{itemize}
- Mid-term
+ Recent
  \begin{itemize}
-  \item Neutrino radiation code
-  \item Fundamental extension of numerical methods
-  \item Requirement-base scheduling
- \end{itemize}
- Long-term
- \begin{itemize}
-  \item Completely requirement-based programming
+  \item Proca Thorns
+  \item LEAN Thorns
+  \item GiRaFFE thorns
  \end{itemize}
 }
 
@@ -446,6 +733,15 @@ How can we work together?
   \item Used in high-end research
  \end{itemize}
 }
+
+\frame{\frametitle{Supported By}
+The Einstein Toolkit has been supported by \\
+NSF 2004157/2004044/2004311/2004879/2003893,\\
+NSF 1550551/1550461/1550436/1550514,\\
+NSF 1212401/1212426/1212433/1212460,\\
+NSF 0903973/0903782/0904015 (CIGR), 0701566/0855892 (XiRel), 0721915 (Alpaca), 0905046/0941653(PetaCactus/PRAC). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+}
+
 
 \end{document}
 
