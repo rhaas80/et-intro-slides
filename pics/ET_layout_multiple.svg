@@ -7,7 +7,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="ET_layout_multiple-proca.svg"
+   sodipodi:docname="ET_layout_multiple.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -656,17 +656,6 @@
          sodipodi:role="line"
          style="font-size:24px;line-height:1;font-family:sans-serif">HydroBase</tspan></text>
     <text
-       id="text3614-4"
-       y="284.06967"
-       x="372.28265"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#724dff;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan3618-6"
-         y="284.06967"
-         x="372.28265"
-         sodipodi:role="line"
-         style="font-size:24px;line-height:1;font-family:sans-serif">ID / Analysis</tspan></text>
-    <text
        id="text3614-0"
        y="492.67477"
        x="208.15125"
@@ -898,11 +887,6 @@
      style="stroke-linejoin:round;marker-end:url(#Arrow2SendQ);stroke-opacity:1;stroke:#724dff;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:3;fill:none" />
   <path
      sodipodi:nodetypes="cc"
-     id="path4555-8-0-7"
-     d="m 370.6371,103.80761 -82.96305,48.52917"
-     style="stroke-linejoin:round;marker-end:url(#Arrow2SendT);stroke-opacity:1;stroke:#724dff;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:3;fill:none" />
-  <path
-     sodipodi:nodetypes="cc"
      id="path4555-8-0-7-7"
      d="M 116.46677,224.34155 116.11811,119.21191"
      style="stroke-linejoin:round;marker-end:url(#Arrow2Sendx);stroke-opacity:1;stroke:#724dff;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:3;fill:none" />
@@ -911,11 +895,6 @@
      id="path4555-8-0-7-7-2"
      d="M 404.50196,211.86202 404.1533,128.16785"
      style="stroke-linejoin:round;marker-end:url(#Arrow2SendZ);stroke-opacity:1;stroke:#724dff;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:3;fill:none" />
-  <path
-     sodipodi:nodetypes="cc"
-     id="path4555-8-0-7-5"
-     d="M 368.79008,89.680304 C 294.96037,72.909879 211.74896,68.505911 147.30241,90.984401"
-     style="fill:none;stroke:#724dff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Sendq)" />
   <path
      sodipodi:nodetypes="cc"
      id="path4555-8-0-7-7-2-1"
@@ -941,4 +920,15 @@
      id="path4555-8-0-7-7-2-6-9"
      d="m 250.00445,258.09697 0.87432,-72.40646"
      style="fill:none;stroke:#724dff;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2SendZ-6)" />
+  <text
+     id="text3614-4-4"
+     y="35.229374"
+     x="251.13768"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#724dff;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       id="tspan3618-6-0"
+       y="35.229374"
+       x="251.13768"
+       sodipodi:role="line"
+       style="font-size:24px;line-height:1;font-family:sans-serif">Initial Data / Analysis</tspan></text>
 </svg>
