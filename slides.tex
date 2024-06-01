@@ -98,7 +98,7 @@ Illinois Urbana-Champaign}
   \item Freely available as open source at \href{http://www.einsteintoolkit.org}{http://www.einsteintoolkit.org}
   \item Supported by {\tiny NSF 1550551/1550461/1550436/1550514}
   \item State-of-the-art set of tools for numerical relativity, open source
-  \item Currently 402 members from 282 sites and 49 countries
+  \item Currently 417 members from 290 sites and 49 countries
   \item $>428$ publications, $>57$ theses building on these components (as of June 2023)
   % publications 2019: 26
   % publications 2020: 90
@@ -235,9 +235,9 @@ data
   \begin{itemize}
   \item Cache
   \pause
-  \item Vector %(Kranc, NRPy+)
+  \item Vector %(Kranc, NRPy)
   \pause
-  \item Accelerators %(Kranc, NRPy+)
+  \item Accelerators %(Kranc, NRPy)
   \pause
   \item Scale to many cores %(openmp)
   \pause
@@ -306,7 +306,7 @@ data
  \item Make use of latest hardware
   \begin{itemize}
   %\item Cache
-  \item Vector (Kranc, NRPy+)
+  \item Vector (Kranc, NRPy)
   \pause
   \item Scale to many cores (OpenMP)
   \pause
@@ -566,7 +566,7 @@ Components:
 \item Cactus
 \item Simulation Factory
 \item Kranc
-\item NRPy+
+\item NRPy
 \item Science Modules
 \end{itemize}
 \end{column}
@@ -702,21 +702,25 @@ Guiding Principles
 
 \section{Vision}
 \frame{\frametitle{Vision}
- \abspic{arrow}{0}{0.65}{0.2}
+ \abspic{arrow}{0}{0.65}{0.18}
  Cutting Edge / Future
  \begin{itemize}
   %\item Inclusion of ``more physics'', e.g. general \\MHD, tabulated equations of state
   %\item Improve scaling of existing mesh methods
   \item New Driver Thorn: CarpetX
-  \item New Spherical Coordinates Thorn (RIT)
-  \item New Python Code Generator: Full thorn output from NRPy+
+  \item New Hydro Thorn: AsterX
+  %\item New Spherical Coordinates Thorn (RIT)
+  \item New Python Code Generator: Full thorn output from NRPy
   \item Kerr background support in SelfForce1D
  \end{itemize}
  Recent
  \begin{itemize}
-  \item PN based initial data and eccentricity reduction
-  \item New Declarative Synchronization: Presync
-  \item Python based simulation analysis: kuibit
+  \item GRHayL: General Relativistic Hydrodynamics Library
+  \item DNSdata for importing SGRID initial data
+  \item Seed\_Magnetic\_Fields
+  %\item PN based initial data and eccentricity reduction
+  %\item New Declarative Synchronization: Presync
+  %\item Python based simulation analysis: kuibit
  \end{itemize}
 }
 
